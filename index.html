@@ -110,14 +110,55 @@ nav button.on{background:linear-gradient(#fff,#8fe9ff 50%,#3a9bff 52%,#bff3ff);c
 .nowl{position:absolute;left:62px;right:0;height:2px;background:#ff3f8e;box-shadow:0 0 8px #ff3f8e;z-index:5;pointer-events:none}
 .ip.sw{border:2px solid #fff8;border-radius:50%;box-shadow:none}.ip.sw.on{border-color:#fff;box-shadow:0 0 12px #fff}
 #dt,#mt{cursor:pointer}
+nav button{position:relative}
+.bd{position:absolute;top:-8px;right:4px;background:#ff3f8e;color:#fff;font:800 11px Orbitron;border-radius:99px;padding:2px 7px;box-shadow:0 0 8px #ff3f8e}.bd.ok{background:var(--y);color:#04164f;box-shadow:0 0 8px var(--y)}
+header{padding:8px 14px 10px;gap:8px;background:linear-gradient(#ffffff2a,#ffffff05 55%),#0b2486e0}
+header::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:linear-gradient(90deg,transparent,#5df0ff,#b9a3ff,#ff9be3,#c8ff5d,#5df0ff,transparent);background-size:200% 100%;animation:sheen 4s linear infinite}@keyframes sheen{to{background-position:-200% 0}}
+.brand{display:flex;align-items:center;gap:10px;min-width:0}
+.disc{flex:none;position:relative;width:38px;height:38px;border-radius:50%;background:conic-gradient(#fff,#5df0ff,#b9a3ff,#ff9be3,#c8ff5d,#5df0ff,#fff);box-shadow:0 0 14px #5df0ff99,inset 0 0 0 2px #ffffffaa;animation:spin2 7s linear infinite}
+.disc::after{content:"";position:absolute;inset:13px;border-radius:50%;background:#0b2090;box-shadow:0 0 0 2px #fff}@keyframes spin2{to{transform:rotate(360deg)}}
+#logo{font-size:22px;line-height:1}.tagl{font:700 11px Orbitron;letter-spacing:2px;color:var(--c1);margin-top:3px;white-space:nowrap}
+.pill{display:flex;align-items:center;gap:4px;background:#041046aa;border:1px solid var(--bd);border-radius:999px;padding:6px 10px;font:800 13px Orbitron;opacity:.7}.pill.hot{opacity:1;box-shadow:0 0 12px #ff9be3aa;border-color:#ff9be3}
+.av{width:58px;height:58px;padding:0;background:none;box-shadow:none;border:0;position:relative}
+.av img,.av b{position:absolute;inset:8px;width:42px;height:42px}.ring{position:absolute;inset:0}
+.lvb{position:absolute;right:-3px;bottom:-3px;min-width:24px;height:24px;padding:0 3px;border-radius:50%;background:radial-gradient(circle at 35% 28%,#fff,#7fe9ff 40%,#2a6cff);color:#04164f;font:900 11px Orbitron;display:grid;place-items:center;border:1px solid #fff;box-shadow:0 0 8px #5df0ff}
+.ic{width:46px;height:46px;font-size:22px}
+.mm{background:linear-gradient(135deg,#6a4dff55,#5df0ff2a);box-shadow:0 0 22px #5df0ff66,inset 0 1px 0 #fff8;margin:10px 14px;cursor:pointer}
+.mt{font:700 21px/1.15 Rajdhani,sans-serif}.ringc{position:relative;width:72px;height:72px;flex:none}.ringc span{position:absolute;inset:0;display:grid;place-items:center;font:900 17px Orbitron}
+.kind{font:800 11px Orbitron;letter-spacing:1px}.kind.push{color:#ffd36b}.kind.lack{color:#ff9be3}.xpp{font:800 13px Orbitron;color:var(--y)}
+.msd{opacity:.6}button:disabled{opacity:.35}
+.btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.btns button{padding:8px 12px;min-height:40px}
+.pg{max-width:560px;margin-left:auto;margin-right:auto}
+header{padding-left:max(14px,calc((100% - 560px)/2 + 14px));padding-right:max(14px,calc((100% - 560px)/2 + 14px))}
+.hero{-webkit-mask-image:linear-gradient(#000 66%,transparent);mask-image:linear-gradient(#000 66%,transparent)}.hero::after{display:none}
+.board{border-radius:22px;margin:0 6px}
+.fab{right:max(14px,calc((100vw - 560px)/2 + 14px))}
+.ov>*{max-width:560px;margin-left:auto;margin-right:auto}
+.grade{--gr:linear-gradient(#fff,#8fe9ff 50%,#3a7bff 52%,#bfeaff);font:900 68px/1 Orbitron;background:var(--gr);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 14px #5df0ff);margin:6px 0}
+.grade.gS{--gr:linear-gradient(#fff6c0,#ffd36b 50%,#ff9a1f 52%,#ffe9a0);filter:drop-shadow(0 0 16px #ffd36b)}
+.grade.gC,.grade.gD{--gr:linear-gradient(#ffd0f0,#ff8ad8 50%,#e01fa8 52%,#ff7ad9);filter:drop-shadow(0 0 14px #ff6fd8)}
+.grade.sm{font-size:40px;width:58px;text-align:center;margin:0}
+.hero{height:auto;padding:14px 0 18px;-webkit-mask-image:none;mask-image:none}.hero svg{-webkit-mask-image:linear-gradient(#000 55%,transparent);mask-image:linear-gradient(#000 55%,transparent)}
+.hin{position:relative;left:auto;right:auto;bottom:auto}
+.cd{padding:10px 14px}.cd .n{font-size:17px;margin:2px 0 6px}.u{min-width:46px;padding:3px 6px}.u b{font-size:17px}
+.mm{padding:10px 14px;margin:8px 14px}
+.week{display:flex;gap:6px;margin:12px 0}.wd{flex:1;aspect-ratio:1;max-width:48px;border-radius:12px;display:grid;place-items:center;background:#ffffff14;border:1px solid #ffffff33;font:800 14px Orbitron}.wd.on{background:linear-gradient(#fff,#8fe9ff);color:#04164f;box-shadow:0 0 12px #5df0ff}
+.bgs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}.bg{padding:10px;border-radius:14px;background:#ffffff10;border:1px solid #ffffff2a;opacity:.55}
+.bg.on{opacity:1;background:linear-gradient(135deg,#ffd36b33,#5df0ff22);border-color:#ffd36b;box-shadow:0 0 12px #ffd36b66}.bi{font-size:26px}.bn{font:800 12px Orbitron;margin-top:4px}.bd2{font-size:14px;color:var(--mut);margin-top:2px}
+.hero{padding:46px 0 18px}
+optgroup{color:#04164f;font-weight:700}option{color:#04164f}
 </style>
 
 
+
+
+
+
 </head><body>
-<header><div id="logo"></div><span class="sp"></span><button class="ic" id="bs" aria-label="Settings">⚙</button><button class="av" id="bp" aria-label="Profile"></button></header>
-<section class="pg on" id="p-cal">
+<header><div class="brand"><div class="disc"></div><div><div id="logo"></div><div class="tagl">SELF·UPGRADE</div></div></div><span class="sp"></span><div class="pill" id="hs" title="Streak">🔥 <b id="hstreak">0</b></div><button class="ic" id="bs" aria-label="Settings">⚙</button><button class="av" id="bp" aria-label="Profile"></button></header>
+<section class="pg on" id="p-cal"><button class="fab" id="qa" aria-label="Quick add">＋</button>
  <div class="hero"><div id="sk1"></div><div class="hin"><div class="card cd" id="cd"></div></div></div>
- <div class="mh"><button id="pm">◀</button><span id="mt"></span><button id="nm">▶</button></div>
+ <div class="card mm" id="mmini" role="button"></div><div class="mh"><button id="pm">◀</button><span id="mt"></span><button id="nm">▶</button></div>
  <div class="mg" id="mg"></div><div class="card" id="dl"></div>
 </section>
 <section class="pg" id="p-pl">
@@ -127,7 +168,8 @@ nav button.on{background:linear-gradient(#fff,#8fe9ff 50%,#3a9bff 52%,#bff3ff);c
  <div class="inv" id="inv"><div class="row"><span class="lab">CHIP CASE</span><span class="sp"></span><button class="gh" id="ic">Close</button></div>
  <div class="em">Tap a chip to edit it. Hold one for 1 second until it shakes, then drag it onto the schedule.</div><div class="slots" id="slots"></div></div>
 </section>
-<section class="pg" id="p-st"><h1 id="h-st"></h1><div id="rank" class="card"></div><div id="sks"></div><div style="margin:12px 14px"><button class="big pri" id="ask">+ NEW SKILL</button></div></section>
+<section class="pg" id="p-ms"><h1 id="h-ms"></h1><div id="msb"></div></section>
+<section class="pg" id="p-st"><h1 id="h-st"></h1><div id="rank" class="card"></div><div id="season" class="card"></div><div id="sks"></div><div style="margin:12px 14px"><button class="big pri" id="ask">+ NEW SKILL</button></div></section>
 <nav id="tabs"></nav>
 <div class="ov" id="ov"></div>
 <div class="gb" id="gh"></div><div class="mod" id="mod"><div id="mb"></div></div>
@@ -172,12 +214,11 @@ function sky(w,h,seed){let s=seed;const r=()=>(s=s*16807%2147483647)/2147483647;
  $('#sk1').innerHTML=`<svg viewBox="0 0 400 235" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#06124a"/><stop offset=".65" stop-color="#1b4fd8"/><stop offset="1" stop-color="#5df0ff"/></linearGradient><radialGradient id="g2"><stop offset="0" stop-color="#fff"/><stop offset=".3" stop-color="#9ff6ff"/><stop offset="1" stop-color="#5df0ff" stop-opacity="0"/></radialGradient><linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#5df0ff" stop-opacity=".25"/></linearGradient></defs><rect width="400" height="235" fill="url(#g1)"/><circle cx="290" cy="92" r="74" fill="url(#g2)"/><g stroke="#bff9ff" stroke-opacity=".4" stroke-width="1">${g}</g>${c}</svg>`})();
 
 /* tabs & overlays */
-const TB=$('#tabs');TB.innerHTML=[['cal','Calendar'],['pl','Planner'],['st','Stats']].map((t,i)=>`<button data-p="${t[0]}" class="${i?'':'on'}"><i>★</i>${t[1]}</button>`).join('');
-function go(p){const c=document.querySelector('.pg.on');if(c&&c.id==='p-'+p)return;closeOv();sfx('swoosh');wipe(()=>{TB.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x.dataset.p===p));document.querySelectorAll('.pg').forEach(e=>e.classList.toggle('on',e.id==='p-'+p));scrollTo(0,0);({st:drawStats,pl:drawGrid,cal:drawCal})[p]();if(p==='pl')nowScroll()})}
+const TB=$('#tabs');TB.innerHTML=[['cal','Calendar'],['pl','Planner'],['ms','Missions'],['st','Stats']].map((t,i)=>`<button data-p="${t[0]}" class="${i?'':'on'}"><i>${{cal:'📅',pl:'🗓️',ms:'🎯',st:'📊'}[t[0]]}</i>${t[1]}</button>`).join('');
+function go(p){const c=document.querySelector('.pg.on');if(c&&c.id==='p-'+p)return;closeOv();sfx('swoosh');wipe(()=>{TB.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x.dataset.p===p));document.querySelectorAll('.pg').forEach(e=>e.classList.toggle('on',e.id==='p-'+p));scrollTo(0,0);({st:drawStats,pl:drawGrid,cal:drawCal,ms:drawMissions})[p]();if(p==='pl')nowScroll()})}
 TB.querySelectorAll('button').forEach(b=>b.onclick=()=>go(b.dataset.p));
 function openOv(f){sfx('open');const o=$('#ov');o.innerHTML=`<div class="row" style="margin:0 14px"><button class="pri" id="ob">◀ BACK</button></div><div id="ovb"></div>`;f();$('#ob').onclick=closeOv;o.scrollTop=0;o.classList.add('on')}
 function closeOv(){if($('#ov').classList.contains('on'))sfx('close');$('#ov').classList.remove('on')}
-function drawAv(){$('#bp').innerHTML=S.cfg.pic?`<img src="${S.cfg.pic}" alt="">`:'<b>★</b>'}
 $('#bp').onclick=()=>openOv(drawProf);$('#bs').onclick=()=>openOv(drawSet);
 $('#logo').innerHTML='<span class="chrome">FUTURA</span>';$('#h-st').innerHTML=rn('Stats');drawAv();
 /* calendar */
@@ -204,7 +245,8 @@ $('#mg').innerHTML=h;$('#mg').querySelectorAll('.dc[data-d]').forEach(c=>c.oncli
 }
 const when=it=>{const d=Math.ceil((evTime(it)-new Date())/864e5);return d<0?'Already passed':d===0?'Today':d===1?'Tomorrow':'In '+d+' days'};
 function itemForm(kind,it){const isE=kind==='e',n=!it;it=it||{title:'',date:sel,time:'09:00',notes:'',imp:false};let imp=!!it.imp;
- modal(`<span class="lab">${n?'NEW':'EDIT'} ${isE?'EVENT':'TASK'}</span><input id="f1" placeholder="${isE?'Event':'Task'} name" value="${esc(it.title)}"><input id="f2" type="date" value="${it.date}">${isE?`<input id="f3" type="time" value="${it.time||''}">`:''}<input id="f4" placeholder="Notes (optional)" value="${esc(it.notes||'')}"><button class="big imptog ${imp?'on':''}" id="fi">★ MARK AS IMPORTANT</button><button class="big pri" id="ok">${n?'ADD':'SAVE'}</button>`);
+ modal(`<span class="lab">${n?'NEW':'EDIT'} ${isE?'EVENT':'TASK'}</span><input id="f1" placeholder="${isE?'Event':'Task'} name" value="${esc(it.title)}">${isE?'':'<button class="big" id="sg">💡 SUGGEST A TASK</button>'}<input id="f2" type="date" value="${it.date}">${isE?`<input id="f3" type="time" value="${it.time||''}">`:''}<input id="f4" placeholder="Notes (optional)" value="${esc(it.notes||'')}"><button class="big imptog ${imp?'on':''}" id="fi">★ MARK AS IMPORTANT</button><button class="big pri" id="ok">${n?'ADD':'SAVE'}</button>`);
+ if($('#sg')){let k=0;$('#sg').onclick=()=>{const a=labIdeas();$('#f1').value=a[k++%a.length];sfx('star')}}
  $('#fi').onclick=()=>{imp=!imp;$('#fi').classList.toggle('on',imp);sfx(imp?'star':'close')};
  $('#ok').onclick=()=>{const t=$('#f1').value.trim();if(!t){sfx('err');return}Object.assign(it,{title:t,date:$('#f2').value,notes:$('#f4').value.trim(),imp});if(isE)it.time=$('#f3').value;if(n){it.id=uid();it.done=false;(isE?S.events:S.tasks).push(it)}sel=it.date;save();closeM();sfx(imp?'star':'add');drawCal();tick()}}
 function showItem(kind,id){const isE=kind==='e',it=(isE?S.events:S.tasks).find(x=>x.id===id);if(!it)return;
@@ -242,36 +284,42 @@ function drawGrid(){materialize();
     hd.onpointerup=()=>{hd.onpointermove=null;save();buzz(8);sfx('tap')}}})})}
 $('#pd').onclick=()=>{const d=new Date(pday+'T00:00');d.setDate(d.getDate()-1);pday=ymd(d);drawGrid()};
 $('#nd').onclick=()=>{const d=new Date(pday+'T00:00');d.setDate(d.getDate()+1);pday=ymd(d);drawGrid()};
-const lvl=xp=>{let l=1,need=60;while(xp>=need){xp-=need;l++;need=60+(l-1)*40}return{l,cur:xp,need}};
+const lvl=xp=>{let l=1,need=40;while(xp>=need){xp-=need;l++;need=40+(l-1)*20}return{l,cur:xp,need}};
 function openBlock(id){const b=D().find(x=>x.id===id);
  modal(`<div class="row"><span class="lab sp">${esc(b.name)}</span><span class="tag" style="background:${b.color}">${esc(b.skill)}</span></div><div class="em">${fh(b.start)} – ${fh(b.end)} · worth ${(b.end-b.start)*20} XP</div>
  <button class="big pri" id="ck">${b.done?'COMPLETED ✓ (tap to undo)':'✓ MARK AS DONE'}</button>
  <button class="big" id="rc">${b.rid?'🔁 REPEATING · TAP TO STOP':'🔁 REPEAT WEEKLY'}</button>${b.rid?'':'<button class="big" id="rc2">🔁 REPEAT EVERY 2 WEEKS</button>'}${b.rid?'<button class="big" id="ru">APPLY THIS TIME TO FUTURE WEEKS</button>':''}
- <button class="big" id="rm">REMOVE FROM SCHEDULE</button>`);
- const sk=S.skills.find(s=>s.name===b.skill),xp=(b.end-b.start)*20;
- $('#ck').onclick=()=>{if(!b.done&&pday>today()){sfx('err');toast('That quest is still in the future');return}if(!b.done){b.done=true;if(sk){const l0=lvl(sk.xp).l;sk.xp+=xp;S.log.push({s:sk.name,x:xp,t:Date.now()});const l1=lvl(sk.xp).l;save();closeM();drawGrid();if(l1>l0)splash(sk.name,l1);else{sfx('done');buzz(30);toast(`+${xp} XP · ${sk.name}`)}return}}else{b.done=false;if(sk)sk.xp=Math.max(0,sk.xp-xp)}save();closeM();drawGrid()};
+ <button class="big" id="cp">📋 COPY TO TOMORROW</button><button class="big" id="rm">REMOVE FROM SCHEDULE</button>`);
+ const sk=S.skills.find(s=>s.name===b.skill),mm=b.mid?missionById(b.mid):null,xp=mm?mm.xp:(b.end-b.start)*20;
+ $('#ck').onclick=()=>{if(!b.done&&pday>today()){sfx('err');toast('That quest is still in the future');return}if(!b.done){b.done=true;if(mm&&!mm.done){mm.done=true;S.md[today()]=(S.md[today()]||0)+1}if(sk){const l0=lvl(sk.xp).l;b.xpg=gainXP(sk,xp,b.name);const l1=lvl(sk.xp).l;save();closeM();drawGrid();if(l1>l0)splash(sk.name,l1);else{sfx('done');buzz(30);toast(`+${b.xpg} XP · ${sk.name}${b.xpg<xp?' (daily cap)':''}`)}return}}else{b.done=false;if(mm&&mm.done){mm.done=false;S.md[today()]=Math.max(0,(S.md[today()]||1)-1)}if(sk)unXP(sk,b.xpg||xp,b.name);b.xpg=0}save();closeM();drawGrid()};
  const mk=ev=>{const dow=new Date(pday+'T00:00').getDay(),id=uid();S.recur.push({id,name:b.name,skill:b.skill,icon:b.icon,color:b.color,start:b.start,end:b.end,dow,from:pday,every:ev,skip:[]});b.rid=id;sfx('star');toast(ev>1?'Repeats every 2 weeks':'Repeats every '+DN[dow]);save();closeM();drawGrid()};
  $('#rc').onclick=()=>{if(b.rid){const id=b.rid;S.recur=S.recur.filter(r=>r.id!==id);for(const k in S.blocks)if(k>pday)S.blocks[k]=S.blocks[k].filter(x=>!(x.rid===id&&!x.done));delete b.rid;toast('Stopped repeating');save();closeM();drawGrid()}else mk(1)};
  if($('#rc2'))$('#rc2').onclick=()=>mk(2);
  if($('#ru'))$('#ru').onclick=()=>{const r=S.recur.find(x=>x.id===b.rid);if(!r)return;r.start=b.start;r.end=b.end;for(const k in S.blocks)if(k>pday)S.blocks[k].forEach(x=>{if(x.rid===r.id&&!x.done){x.start=b.start;x.end=b.end}});save();closeM();toast('Future weeks updated')};
- $('#rm').onclick=()=>{sfx('trash');if(b.rid){const r=S.recur.find(x=>x.id===b.rid);if(r)r.skip.push(pday)}if(b.done&&sk)sk.xp=Math.max(0,sk.xp-xp);S.blocks[pday]=D().filter(x=>x!==b);save();closeM();drawGrid()}}
+ $('#cp').onclick=()=>{const d=new Date(pday+'T00:00');d.setDate(d.getDate()+1);const k=ymd(d),L=S.blocks[k]=S.blocks[k]||[];if(L.some(x=>x.start<b.end&&x.end>b.start)){sfx('err');toast('Tomorrow is busy at that time');return}L.push(Object.assign({},b,{id:uid(),done:false,xpg:0,rid:undefined,mid:undefined}));save();closeM();sfx('add');toast('Copied to tomorrow')};
+ $('#rm').onclick=()=>{sfx('trash');if(b.rid){const r=S.recur.find(x=>x.id===b.rid);if(r)r.skip.push(pday)}if(b.done&&sk)unXP(sk,b.xpg||xp,b.name);S.blocks[pday]=D().filter(x=>x!==b);save();closeM();drawGrid()}}
 function drawInv(){const n=S.boxes.length+1,c=n<=4?2:n<=9?3:n<=16?4:n<=25?5:6,el=$('#slots');
  el.style.setProperty('--c',c);el.style.setProperty('--fs',Math.max(12,19-c*1.5)+'px');el.style.setProperty('--ic',Math.max(18,50-c*6)+'px');el.classList.toggle('dense',c>=5);
  el.innerHTML=S.boxes.map(b=>`<button class="slot" data-b="${b.id}" style="--bc:${b.color}"><span class="ico">${b.icon||'★'}</span><span class="nm">${esc(b.name)}</span><small>${esc(b.skill)}</small></button>`).join('')+'<button class="slot add" id="nb">+</button>';
  $('#nb').onclick=newBox;el.querySelectorAll('.slot[data-b]').forEach(e=>holdDrag(e,S.boxes.find(x=>x.id===e.dataset.b)))}
-const ICONS=['📚','✏️','🎨','🏃','💪','💻','🎵','🍳','😴','🧘','🎮','🧹','🚌','☕'];
+const ICONS=['📚','📖','✏️','🗣️','🎨','🎵','💻','🏃','💪','🧘','🌿','🍳','💰','🧹','🎮','😴','🚌','☕'];
+const ICON_SKILL={'📚':'Academics','📖':'Reading','✏️':'Writing','🗣️':'Languages','🎨':'Art','🎵':'Music','💻':'Coding','🏃':'Cardio','💪':'Strength','🧘':'Mindfulness','🌿':'Wellness','🍳':'Cooking','💰':'Finance','🧹':'Organization','🎮':'Gaming','😴':'Rest','🚌':'Life Admin','☕':'Social'};
+const SK_RX=[[/skat|\bski|snow/i,'⛸️'],[/code|program|\bdev|tech|software/i,'💻'],[/\bfit|gym|strength|lift|weight/i,'💪'],[/\brun|cardio|sport|swim|bike|cycl|ball|danc|climb|surf|hik|walk/i,'🏃'],[/creativ|\bart|draw|paint|sketch|design|photo/i,'🎨'],[/music|guitar|piano|sing|violin|drum|beat/i,'🎵'],[/acad|study|school|learn|math|scien|exam|class|knowledge|histor/i,'📚'],[/read|book/i,'📖'],[/writ|journal|blog|story|poem/i,'✏️'],[/lang|english|spanish|french|japan|korean|speak/i,'🗣️'],[/mind|medit|yoga|calm/i,'🧘'],[/well|health|\brest\b|sleep/i,'🌿'],[/cook|bak|food|meal|chef/i,'🍳'],[/money|financ|budget|invest|saving/i,'💰'],[/organi|clean|chore|tidy/i,'🧹'],[/game|gaming|chess/i,'🎮'],[/admin|errand|commut|travel/i,'🚌'],[/social|friend|family|network/i,'☕']];
+function skillIcon(n){const s=S.skills.find(x=>x.name===n);if(s&&s.icon)return s.icon;for(const [r,e] of SK_RX)if(r.test(n))return e;return '⭐'}
+function presetOpts(){const have=S.skills.map(s=>s.name.toLowerCase()),seen=new Set(),o=[];for(const [ic,nm] of Object.entries(ICON_SKILL)){if(have.includes(nm.toLowerCase())||seen.has(nm))continue;seen.add(nm);o.push(`<option value="preset:${nm}">${ic} ${nm}</option>`)}return o.length?`<optgroup label="Suggested skills">${o.join('')}</optgroup>`:''}
+function autoSkill(ic){const nm=ICON_SKILL[ic],el=$('#f2');if(!nm||!el)return;const mine=S.skills.find(s=>s.name.toLowerCase()===nm.toLowerCase());el.value=mine?mine.name:'preset:'+nm;$('#f3').style.display='none'}
 function newBox(){boxForm()}
-function boxForm(b){const nw=!b;b=b||{name:'',icon:ICONS[0],color:PAL[S.boxes.length%8],skill:S.skills[0]&&S.skills[0].name};let ic=b.icon||ICONS[0],co=b.color;
- modal(`<span class="lab">${nw?'NEW CHIP':'EDIT CHIP'}</span><input id="f1" placeholder="Activity (e.g. Study Calculus)" maxlength="40" value="${esc(b.name)}"><div class="icons">${ICONS.map(x=>`<button class="ip ${x===ic?'on':''}" data-i="${x}">${x}</button>`).join('')}</div><div class="icons">${PAL.map(c=>`<button class="ip sw ${c===co?'on':''}" data-c="${c}" style="background:${c}" aria-label="color"></button>`).join('')}</div><select id="f2">${S.skills.map(s=>`<option ${s.name===b.skill?'selected':''}>${esc(s.name)}</option>`).join('')}<option value="__n">+ New skill…</option></select><input id="f3" placeholder="New skill name" style="display:none"><button class="big pri" id="ok">${nw?'CREATE CHIP':'SAVE CHIP'}</button>${nw?'':'<button class="big" id="dl2">🗑 DELETE CHIP</button>'}`);
- document.querySelectorAll('[data-i]').forEach(x=>x.onclick=()=>{ic=x.dataset.i;sfx('tick');document.querySelectorAll('[data-i]').forEach(y=>y.classList.toggle('on',y===x))});
+function boxForm(b,pre){const nw=!b;b=b||Object.assign({name:'',icon:ICONS[0],color:PAL[S.boxes.length%8],skill:S.skills[0]&&S.skills[0].name},pre||{});let ic=b.icon||ICONS[0],co=b.color;
+ modal(`<span class="lab">${nw?'NEW CHIP':'EDIT CHIP'}</span><input id="f1" placeholder="Activity (e.g. Study Calculus)" maxlength="40" value="${esc(b.name)}"><div class="icons">${ICONS.map(x=>`<button class="ip ${x===ic?'on':''}" data-i="${x}">${x}</button>`).join('')}</div><div class="icons">${PAL.map(c=>`<button class="ip sw ${c===co?'on':''}" data-c="${c}" style="background:${c}" aria-label="color"></button>`).join('')}</div><select id="f2"><optgroup label="Your skills">${S.skills.map(s=>`<option value="${esc(s.name)}" ${s.name===b.skill?'selected':''}>${skillIcon(s.name)} ${esc(s.name)}</option>`).join('')}</optgroup>${presetOpts()}<option value="__n">➕ New skill…</option></select><input id="f3" placeholder="New skill name" style="display:none"><button class="big pri" id="ok">${nw?'CREATE CHIP':'SAVE CHIP'}</button>${nw?'':'<button class="big" id="dl2">🗑 DELETE CHIP</button>'}`);
+ document.querySelectorAll('[data-i]').forEach(x=>x.onclick=()=>{ic=x.dataset.i;sfx('tick');if(nw)autoSkill(ic);document.querySelectorAll('[data-i]').forEach(y=>y.classList.toggle('on',y===x))});
  document.querySelectorAll('[data-c]').forEach(x=>x.onclick=()=>{co=x.dataset.c;sfx('tick');document.querySelectorAll('[data-c]').forEach(y=>y.classList.toggle('on',y===x))});
  $('#f2').onchange=e=>$('#f3').style.display=e.target.value==='__n'?'block':'none';
- $('#ok').onclick=()=>{const n=$('#f1').value.trim();if(!n){sfx('err');return}let sk=$('#f2').value;if(sk==='__n'){sk=$('#f3').value.trim();if(!sk){sfx('err');return}if(!S.skills.find(s=>s.name===sk))S.skills.push({id:uid(),name:sk,xp:0,color:PAL[S.skills.length%8]})}
+ $('#ok').onclick=()=>{const n=$('#f1').value.trim();if(!n){sfx('err');return}let sk=$('#f2').value;if(sk.startsWith('preset:')){sk=sk.slice(7);if(!S.skills.find(s=>s.name.toLowerCase()===sk.toLowerCase()))S.skills.push({id:uid(),name:sk,xp:0,color:PAL[S.skills.length%8]})}else if(sk==='__n'){sk=$('#f3').value.trim();if(!sk){sfx('err');return}if(!S.skills.find(s=>s.name===sk))S.skills.push({id:uid(),name:sk,xp:0,color:PAL[S.skills.length%8]})}
   if(nw)S.boxes.push({id:uid(),name:n,skill:sk,icon:ic,color:co});else{Object.assign(b,{name:n,skill:sk,icon:ic,color:co});for(const k in S.blocks)S.blocks[k].forEach(x=>{if(x.bid===b.id&&!x.done)Object.assign(x,{name:n,skill:sk,icon:ic,color:co})})}
-  sfx('add');save();closeM();drawInv();drawGrid()};
+  if(nw&&b.idea)S.ideas=S.ideas.filter(x=>x.id!==b.idea);sfx('add');save();closeM();drawInv();drawGrid()};
  if(!nw)$('#dl2').onclick=()=>{S.boxes=S.boxes.filter(x=>x!==b);sfx('trash');save();closeM();drawInv()}}
-$('#fab').onclick=()=>{drawInv();sfx('open');$('#inv').classList.remove('away');$('#inv').classList.add('open')};
-$('#ic').onclick=()=>{sfx('close');$('#inv').classList.remove('open')};
+$('#fab').onclick=()=>{pickH=null;drawInv();setHint();sfx('open');$('#inv').classList.remove('away');$('#inv').classList.add('open')};
+$('#ic').onclick=()=>{pickH=null;setHint();sfx('close');$('#inv').classList.remove('open')};
 let drag=null,mv=null;document.addEventListener('touchmove',e=>{if((drag&&drag.on)||mv)e.preventDefault()},{passive:false});
 function holdDrag(el,box){let timer,sx,sy,tapOK=false;
  el.onpointerdown=e=>{tapOK=true;sx=e.clientX;sy=e.clientY;const pid=e.pointerId;
@@ -279,7 +327,7 @@ function holdDrag(el,box){let timer,sx,sy,tapOK=false;
     const g=$('#gh');g.style.display='block';g.style.setProperty('--bc',box.color);g.innerHTML=(box.icon||'')+' '+esc(box.name);pos(sx,sy);try{el.setPointerCapture(pid)}catch(x){}
     drag.timer=setInterval(()=>{if(drag.y>innerHeight-130)scrollBy(0,14);else if(drag.y<150)scrollBy(0,-14);pos(drag.x,drag.y)},30)},250)},750)};
  el.onpointermove=e=>{if(!drag){if(Math.hypot(e.clientX-sx,e.clientY-sy)>12){clearTimeout(timer);tapOK=false}return}pos(e.clientX,e.clientY)};
- const end=()=>{clearTimeout(timer);el.classList.remove('hold');if(!drag){if(tapOK){tapOK=false;boxForm(box)}return}const d=drag;drag=null;clearInterval(d.timer);$('#gh').style.display='none';$('#snap').style.display='none';
+ const end=()=>{clearTimeout(timer);el.classList.remove('hold');if(!drag){if(tapOK){tapOK=false;if(pickH!=null)pickChip(box);else boxForm(box)}return}const d=drag;drag=null;clearInterval(d.timer);$('#gh').style.display='none';$('#snap').style.display='none';
   const r=$('#grid').getBoundingClientRect(),row=Math.floor((d.y-r.top)/H);$('#inv').classList.remove('open','away');
   if(d.y>r.top&&d.y<r.bottom&&row>=0&&row<NR){const s=H0+row;
    if(D().some(b=>b.start<s+1&&b.end>s))(sfx('err'),toast('That slot is taken'));
@@ -290,7 +338,7 @@ function pos(x,y){if(!drag)return;drag.x=x;drag.y=y;const g=$('#gh');g.style.lef
 /* stats */
 function drawStats(){const tot=S.skills.reduce((a,s)=>a+lvl(s.xp).l,0),xp=S.skills.reduce((a,s)=>a+s.xp,0);
  $('#rank').innerHTML=`<div class="row"><div class="lv">${tot}</div><div><div style="font:700 15px Orbitron">TOTAL LEVEL</div><div class="em" style="padding:0">${xp} XP earned · tap your portrait for advice</div></div></div>`;
- $('#sks').innerHTML=S.skills.map(s=>{const L=lvl(s.xp);return`<div class="card sk"><div class="lv">${L.l}</div><div class="sp"><span class="lab">${esc(s.name)}</span><div class="xb"><div style="width:${L.cur/L.need*100}%;background:${s.color}"></div></div><div class="em" style="padding:4px 0 0;font-size:14px">${L.cur} / ${L.need} XP to Lv ${L.l+1}</div></div></div>`}).join('')}
+ $('#sks').innerHTML=S.skills.map(s=>{const L=lvl(s.xp);return`<div class="card sk"><div class="lv">${L.l}</div><div class="sp"><span class="lab">${skillIcon(s.name)} ${esc(s.name)}</span><div class="xb"><div style="width:${L.cur/L.need*100}%;background:${s.color}"></div></div><div class="em" style="padding:4px 0 0;font-size:14px">${L.cur} / ${L.need} XP to Lv ${L.l+1}</div></div></div>`}).join('')}
 $('#ask').onclick=()=>{modal('<span class="lab">NEW SKILL</span><input id="f1" placeholder="Skill name (e.g. Guitar)"><button class="big pri" id="ok">ADD SKILL</button>');$('#ok').onclick=()=>{const n=$('#f1').value.trim();if(!n)return;S.skills.push({id:uid(),name:n,xp:0,color:PAL[S.skills.length%8]});save();closeM();drawStats()}};
 /* profile */
 function radar(){const k=S.skills.map(s=>({n:s.name,l:lvl(s.xp).l})),n=k.length;if(n<3)return'';const M=Math.max(5,...k.map(x=>x.l)),cx=150,cy=125,R=88;
@@ -307,7 +355,7 @@ function advice(){const A=[],wk=Date.now()-6048e5,ks=S.skills.map(s=>({n:esc(s.n
  if(!A.length)A.push(`Balanced and sharp, ${esc(S.cfg.name)}. The team is proud.`);return A}
 function drawProf(){const tot=S.skills.reduce((a,s)=>a+lvl(s.xp).l,0),xp=S.skills.reduce((a,s)=>a+s.xp,0),R=['Wannabe','Rookie Thief','Phantom Thief','Ace Thief','Legend','Trickster'];
  $('#ovb').innerHTML=`<h1 id="ph"></h1><div class="card" style="text-align:center"><button class="bigav" id="pp" style="background:#fff">${S.cfg.pic?`<img src="${S.cfg.pic}" alt="">`:'<b>★</b>'}</button><input type="file" id="pf" accept="image/*" style="display:none"><div class="em">Tap the portrait to change it</div><input id="pn" value="${esc(S.cfg.name)}" maxlength="16" style="text-align:center;font:700 18px Orbitron"><div class="row" style="justify-content:center"><span class="lab">LV ${tot}</span><span class="lab" style="background:#fff">${R[Math.min(5,Math.floor(tot/6))]}</span></div><div class="em">${xp} XP · ${S.log.length} quests cleared</div></div><div class="card">${radar()||'<div class="em">Add 3 or more skills to unlock your stat star.</div>'}</div><div class="card"><span class="lab" style="background:var(--r);color:#fff">NAVI SAYS</span>${advice().map(a=>`<div class="it">${a}</div>`).join('')}</div>`;
- $('#ph').innerHTML=rn('Profile');$('#pp').onclick=()=>$('#pf').click();
+ $('#ph').innerHTML=rn('Profile');$('#ovb').insertAdjacentHTML('beforeend',badgesHTML());$('#pp').onclick=()=>$('#pf').click();
  $('#pn').oninput=e=>{S.cfg.name=e.target.value.trim()||'Phantom';save()};
  $('#pf').onchange=e=>{const f=e.target.files[0];if(!f)return;const im=new Image();im.onload=()=>{const c=document.createElement('canvas');c.width=c.height=200;const s=Math.min(im.width,im.height);c.getContext('2d').drawImage(im,(im.width-s)/2,(im.height-s)/2,s,s,0,0,200,200);S.cfg.pic=c.toDataURL('image/jpeg',.8);save();drawAv();drawProf();sfx('done')};im.src=URL.createObjectURL(f)}}
 /* settings + music */
@@ -326,7 +374,7 @@ function drawSet(){const c=S.cfg;
  $('#mp').onclick=()=>{if(!bgm.src)return;if(bgm.paused){c.mon=true;bgm.play().catch(()=>{})}else{c.mon=false;bgm.pause()}save();drawSet()};
  $('#mx').onclick=()=>{mput(null);bgm.pause();bgm.removeAttribute('src');c.track='';save();drawSet()};
  $('#mv').oninput=e=>{c.mvol=+e.target.value;bgm.volume=c.mvol;save()};
- $('#bx').onclick=exportData;$('#bi').onclick=importData;$('#rl').onclick=()=>{modal('<span class="lab">RESET ALL LEVELS?</span><div class="em">Every skill returns to Lv 1. Your schedule stays.</div><button class="big pri" id="y">RESET LEVELS</button><button class="big" id="n">CANCEL</button>');$('#n').onclick=closeM;$('#y').onclick=()=>{S.skills.forEach(s=>s.xp=0);S.log=[];for(const k in S.blocks)S.blocks[k].forEach(b=>b.done=false);save();closeM();toast('Levels reset')}};
+ $('#bx').onclick=exportData;$('#bi').onclick=importData;$('#rl').onclick=()=>{modal('<span class="lab">RESET ALL LEVELS?</span><div class="em">Every skill returns to Lv 1. Your schedule stays.</div><button class="big pri" id="y">RESET LEVELS</button><button class="big" id="n">CANCEL</button>');$('#n').onclick=closeM;$('#y').onclick=()=>{S.skills.forEach(s=>s.xp=0);S.log=[];S.life={};for(const k in S.blocks)S.blocks[k].forEach(b=>b.done=false);save();closeM();toast('Levels reset')}};
  $('#ra').onclick=()=>{modal('<span class="lab">ERASE EVERYTHING?</span><div class="em">Events, tasks, boxes, schedule, levels and portrait will be deleted for good.</div><button class="big pri" id="y">ERASE ALL</button><button class="big" id="n">CANCEL</button>');$('#n').onclick=closeM;$('#y').onclick=()=>{try{localStorage.removeItem('questlog')}catch(e){}mput(null);location.reload()}}}
 let noClick=0;
 function blkMove(el){let timer,y0,s0,b,pid;
@@ -346,6 +394,123 @@ function exportData(){const j=JSON.stringify(S);modal(`<span class="lab">BACKUP<
  $('#bc').onclick=()=>{const t=$('#bt');t.select();t.setSelectionRange(0,1e9);let ok=false;try{ok=document.execCommand('copy')}catch(e){}try{navigator.clipboard&&navigator.clipboard.writeText(j)}catch(e){}sfx('add');toast(ok?'Copied!':'Select the text and copy it')}}
 function importData(){modal(`<span class="lab">RESTORE</span><div class="em">Paste a backup here. This replaces your current data.</div><textarea id="bt" ${TA}></textarea><button class="big pri" id="bc">RESTORE</button>`);
  $('#bc').onclick=()=>{try{const d=JSON.parse($('#bt').value);if(!d||!Array.isArray(d.skills))throw 0;localStorage.setItem('questlog',JSON.stringify(d));location.reload()}catch(e){sfx('err');toast('That isn’t a Futura backup')}}}
-if(!S.cfg.seen){S.cfg.seen=1;save();setTimeout(()=>{modal(`<span class="lab">WELCOME TO FUTURA</span><div class="it">📅<span>Tap a day, then add events and tasks. Tap one to see details or mark it important ★.</span></div><div class="it">💿<span>In Planner, open the chip case, make chips for your activities, hold one until it shakes, then drag it onto the schedule.</span></div><div class="it">↕<span>Stretch a block with its top or bottom bar. Hold a block to move it.</span></div><div class="it">⚔️<span>Tap a finished block, then Mark as Done, to earn XP and level up.</span></div><button class="big pri" id="gg">LET’S GO</button>`);$('#gg').onclick=()=>{sfx('add');closeM()}},700)}
+var firstRun=!S.cfg.seen;if(!S.cfg.seen){S.cfg.seen=1;save();setTimeout(()=>{modal(`<span class="lab">WELCOME TO FUTURA</span><div class="it">📅<span>Tap a day, then add events and tasks. Tap one to see details or mark it important ★.</span></div><div class="it">💿<span>In Planner, open the chip case, make chips for your activities, hold one until it shakes, then drag it onto the schedule.</span></div><div class="it">↕<span>Stretch a block with its top or bottom bar. Hold a block to move it.</span></div><div class="it">⚔️<span>Tap a finished block, then Mark as Done, to earn XP and level up.</span></div><button class="big pri" id="gg">LET’S GO</button>`);$('#gg').onclick=()=>{sfx('add');closeM()}},700)}
+S.missions=S.missions||null;S.adj=S.adj||{};S.md=S.md||{};S.life=S.life||{};S.seasons=S.seasons||[];S.fz=S.fz||{};S.freeze=S.freeze||0;S.lg=S.lg||{last:'',n:0};S.badges=S.badges||{};
+var TPL={
+study:[["Study {s} for 25 focused minutes, phone away","Summarize what you learned in {s} today in 3 lines"],["Do a 45-minute deep {s} session, then quiz yourself","Explain one hard {s} idea out loud like you’re teaching a friend"],["Solve 5 hard {s} problems without looking at notes","Do a 90-minute {s} block and write a one-page recap"],["Teach a {s} concept to someone, or write a short guide on it","Pick a {s} goal that scares you and finish step one today"]],
+fit:[["Move for 20 minutes: a walk, stretch or light workout","Do 3 sets of any bodyweight exercise"],["Complete a 40-minute workout with a proper warm-up","Beat one personal number: reps, time or weight"],["Do your hardest planned session and log the numbers","Train 60 minutes with a clear progression target"],["Set a 30-day {s} target and complete today’s toughest step","Try a {s} challenge you’ve never attempted"]],
+create:[["Make something rough in 20 minutes. No editing allowed","Collect 3 references that inspire your {s} work"],["Finish one small {s} piece from start to end","Copy a master’s technique, then add your own twist"],["Spend 90 minutes on a {s} piece that stretches you","Share a finished {s} piece and ask for honest feedback"],["Start a {s} project you’d be proud to show publicly","Create something in {s} you didn’t think you could yet"]],
+code:[["Solve one small coding problem","Read and understand 20 lines of someone else’s code"],["Build one small feature from scratch in 45 minutes","Refactor an old project and note what you learned"],["Build and deploy a tiny project today","Debug something hard before searching for the answer"],["Ship a real project to a real user and write what you learned","Learn a new tool in {s} and teach it in writing"]],
+gen:[["{s}: 20 focused minutes on any small task","{s}: do the easiest thing you’ve been avoiding"],["{s}: 45-minute deep session, phone away","{s}: practice the part you’re worst at for 30 minutes"],["{s}: 90-minute deep block, then write what you learned","{s}: finish one real piece of output and share it"],["{s}: set a month-long stretch goal and take step one today","{s}: try something that makes you slightly uncomfortable"]]};
+const catOf=n=>/code|program|dev|tech|software|engineer/i.test(n)?'code':/fit|gym|health|sport|run|exercise|strength|body|yoga/i.test(n)?'fit':/creat|art|draw|music|guitar|piano|writ|design|paint|photo|craft/i.test(n)?'create':/acad|study|school|learn|read|math|science|knowledge|class|exam|history|lang/i.test(n)?'study':'gen';
+function idleDays(s){const t=S.log.filter(g=>g.s===s.name&&g.x>0).reduce((a,g)=>Math.max(a,g.t),0);return t?Math.floor((Date.now()-t)/864e5):14}
+function makeMission(s,kind,off){const L=lvl(S.life[s.name]||s.xp).l,base=L<3?0:L<6?1:2,adj=S.adj[s.name]||0,tier=Math.max(0,Math.min(kind==='push'?3:2,base+(kind==='push'?1:0)+adj));
+ const arr=TPL[catOf(s.name)][tier],t=arr[(Math.floor(Date.now()/864e5)+off)%arr.length].replace(/\{s\}/g,s.name),chip=S.boxes.find(b=>b.skill===s.name);
+ return{id:uid(),skill:s.name,kind,tier,off,title:t,why:(kind==='push'?'Your strongest skill. Pushing past comfort turns a habit into mastery.':'A weak spot right now. A small win here lifts your whole build.')+(chip?` Tip: use your “${chip.name}” chip.`:''),xp:[20,30,45,60][tier]+(kind==='push'?10:0),done:false,sw:0}}
+function ensureMissions(){const t=today();if(S.missions&&S.missions.date===t&&S.missions.list.length)return;
+ if(!S.skills.length){S.missions={date:t,list:[]};return}
+ const sk=S.skills.map(s=>({s,l:lvl(s.xp).l}));const mx=Math.max(...sk.map(x=>x.l));sk.forEach(x=>x.need=(mx-x.l)*2+Math.min(idleDays(x.s),10)*.5+(x.s.xp?0:2));
+ const weak=[...sk].sort((a,b)=>b.need-a.need),strong=[...sk].sort((a,b)=>b.s.xp-a.s.xp),a=weak[0],p=strong[0]===a&&sk.length>1?strong[1]:strong[0],b=weak.find(x=>x!==a&&x!==p)||a;
+ S.missions={date:t,list:[makeMission(a.s,'lack',0),makeMission(b.s,'lack',b===a?1:0),makeMission(p.s,'push',0)],weak:a.s.name,strong:p.s.name};save()}
+function missionById(id){return S.missions&&S.missions.list.find(m=>m.id===id)}
+function streak(){let n=0,d=new Date();if(!(S.md[ymd(d)]>0||S.fz[ymd(d)]))d.setDate(d.getDate()-1);while(S.md[ymd(d)]>0||S.fz[ymd(d)]){if(S.md[ymd(d)]>0)n++;d.setDate(d.getDate()-1)}return n}
+function findSlot(){const now=new Date();for(let d=0;d<3;d++){const dt=new Date();dt.setDate(dt.getDate()+d);const k=ymd(dt),dow=dt.getDay(),used=(S.blocks[k]||[]).slice();
+ S.recur.forEach(r=>{if(r.dow===dow&&k>=r.from&&!r.skip.includes(k)&&Math.round((new Date(k+'T00:00')-new Date(r.from+'T00:00'))/6048e5)%(r.every||1)===0&&!used.some(b=>b.rid===r.id))used.push(r)});
+ for(let h=d?9:Math.max(H0,Math.ceil(now.getHours()+now.getMinutes()/60+.01));h<=22;h++)if(!used.some(b=>b.start<h+1&&b.end>h))return{k,h}}return null}
+function schedMission(m){const sl=findSlot();if(!sl){sfx('err');toast('No free slot in the next 3 days');return}const sk=S.skills.find(s=>s.name===m.skill);
+ (S.blocks[sl.k]=S.blocks[sl.k]||[]).push({id:uid(),mid:m.id,name:m.title.length>34?m.title.slice(0,33)+'…':m.title,skill:m.skill,icon:'🎯',color:sk?sk.color:'#5df0ff',start:sl.h,end:sl.h+1,done:false});
+ save();sfx('add');buzz(15);toast(`Scheduled · ${sl.k===today()?'today':new Date(sl.k+'T00:00').toLocaleDateString('en',{weekday:'short'})} ${fh(sl.h)}`)}
+function labIdeas(){ensureMissions();const a=S.missions.list.filter(m=>!m.done).map(m=>m.title);return a.length?a:['Plan tomorrow’s top 3 priorities','Write 3 lines about who you want to become']}
+function ringSVG(n,size){const R=26,C=2*Math.PI*R,g=C/3-7;return `<svg class="ring" viewBox="0 0 60 60" width="${size}" height="${size}">${[0,1,2].map(i=>`<circle cx="30" cy="30" r="${R}" fill="none" stroke="${i<n?'#c8ff5d':'#ffffff55'}" stroke-width="4" stroke-linecap="round" stroke-dasharray="${g} ${C-g}" transform="rotate(${-90+i*120+5} 30 30)" ${i<n?'style="filter:drop-shadow(0 0 4px #c8ff5d)"':''}/>`).join('')}</svg>`}
+function doneMission(m,feel){const sk=S.skills.find(s=>s.name===m.skill);S.adj[m.skill]=Math.max(-1,Math.min(1,(S.adj[m.skill]||0)+feel));m.done=true;const l0=sk?lvl(sk.xp).l:0;
+ if(sk){m.xpg=gainXP(sk,m.xp,'🎯 Mission')}
+ for(const k in S.blocks)S.blocks[k].forEach(b=>{if(b.mid===m.id)b.done=true});S.md[today()]=(S.md[today()]||0)+1;let bonus=0,loot=0;
+ if(S.missions.list.every(x=>x.done)){const w=[...S.skills].sort((a,b)=>lvl(a.xp).l-lvl(b.xp).l||a.xp-b.xp)[0];if(w){gainXP(w,30,'🎯 All clear');bonus=30}if(Math.random()<.25){S.freeze=Math.min(3,(S.freeze||0)+1);loot=1}}
+ save();closeM();buzz(30);const l1=sk?lvl(sk.xp).l:0;
+ if(l1>l0)splash(sk.name,l1);else{sfx(bonus?'lvl':'done');toast(bonus?(loot?'ALL CLEAR · +30 XP · 🧊 LOOT DROP!':'ALL CLEAR · +30 XP bonus'):`+${m.xp} XP · ${m.skill}`)}drawMissions();updBadge()}
+function drawMissions(){ensureMissions();const M=S.missions,L=M.list,n=L.filter(m=>m.done).length;
+ $('#msb').innerHTML=`<div class="card"><div class="row"><div class="ringc">${ringSVG(n,72)}<span>${n}/${L.length||3}</span></div><div class="sp"><span class="lab">TODAY’S THEME</span><div class="mt" style="margin-top:6px">${M.weak?`Build ${esc(M.weak)}, master ${esc(M.strong)}`:'Add a skill in Stats to begin'}</div></div></div>
+ <div class="em">${n===L.length&&n?'ALL CLEAR. You showed up for who you’re becoming. 🔥':'Self-actualization is built on days like this. Finish all 3 for a +30 XP bonus.'}</div><div class="em" style="color:var(--y)">🔥 ${streak()}-day streak (+${Math.round((xpMult()-1)*100)}% XP) · 🧊 ${S.freeze} freeze · login day ${S.lg.n}</div></div>
+ ${L.map((m,i)=>{const sk=S.skills.find(s=>s.name===m.skill);return`<div class="card ms ${m.done?'msd':''}"><div class="row"><span class="tag" style="background:${sk?sk.color:'#5df0ff'}">${skillIcon(m.skill)} ${esc(m.skill)}</span><span class="kind ${m.kind}">${m.kind==='push'?'▲ LEVEL PUSH':'◆ CLOSE THE GAP'}</span><span class="sp"></span><span class="xpp">+${m.xp} XP</span></div><div class="mt">${esc(m.title)}</div><div class="em">${esc(m.why)}</div><div class="btns">${m.done?'<span class="lab" style="background:var(--y)">✓ COMPLETED</span>':`<button class="pri" data-c="${i}">✓ COMPLETE</button><button data-s="${i}">📅 SCHEDULE</button><button data-w="${i}" ${m.sw?'disabled':''}>🔄 SWAP</button>`}</div></div>`}).join('')||'<div class="card"><div class="em">No skills yet. Add one in the Stats tab.</div></div>'}`;
+ $('#msb').querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>{const m=L[+b.dataset.c];modal(`<span class="lab">NICE WORK</span><div class="mt" style="margin-top:10px">How did that feel?</div><div class="em">Futura adapts tomorrow’s missions to match.</div><button class="big" data-f="1">😴 TOO EASY · push me harder</button><button class="big pri" data-f="0">🙂 JUST RIGHT</button><button class="big" data-f="-1">🥵 TOO HARD · ease off</button>`);document.querySelectorAll('[data-f]').forEach(x=>x.onclick=()=>doneMission(m,+x.dataset.f))});
+ $('#msb').querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>schedMission(L[+b.dataset.s]));
+ $('#msb').querySelectorAll('[data-w]').forEach(b=>b.onclick=()=>{const m=L[+b.dataset.w],sk=S.skills.find(s=>s.name===m.skill);if(!sk||m.sw)return;L[+b.dataset.w]=Object.assign(makeMission(sk,m.kind,m.off+1),{sw:1,id:m.id});save();sfx('swoosh');drawMissions()})}
+let avSig='',mmSig='';
+function drawAv(){if(typeof TPL==='undefined')return;ensureMissions();const n=S.missions.list.filter(m=>m.done).length,tl=S.skills.reduce((a,s)=>a+lvl(s.xp).l,0),sig=n+'|'+tl+'|'+(S.cfg.pic||'').length;if(sig===avSig)return;avSig=sig;
+ $('#bp').innerHTML=ringSVG(n,58)+(S.cfg.pic?`<img src="${S.cfg.pic}" alt="">`:'<b>★</b>')+`<span class="lvb">${tl}</span>`}
+function updBadge(){ensureMissions();const L=S.missions.list,n=L.filter(m=>m.done).length,st=streak(),b=$('#mbd');
+ if(b){b.textContent=n+'/'+(L.length||3);b.classList.toggle('ok',n>0&&n===L.length)}
+ $('#hstreak').textContent=st;$('#hs').classList.toggle('hot',st>0);
+ const sig=n+'|'+L.length+'|'+st;if(sig!==mmSig){mmSig=sig;$('#mmini').innerHTML=`<div class="row"><span style="font-size:28px">🎯</span><div class="sp"><span class="lab">TODAY’S MISSIONS</span><div class="em" style="padding:2px 0 0">${n}/${L.length||3} done · 🔥 ${st}-day streak</div></div><span class="chev">›</span></div>`}
+ drawAv()}
+TB.querySelector('[data-p=ms]').insertAdjacentHTML('beforeend','<b class="bd" id="mbd"></b>');
+$('#mmini').onclick=()=>go('ms');$('#h-ms').innerHTML=rn('Missions');
+updBadge();setInterval(updBadge,1500);
+const mk=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0'),PAR=600,SOFT=100;
+function gainXP(sk,x,src){x=Math.round(x*xpMult());const t0=new Date().setHours(0,0,0,0),earned=S.log.filter(g=>g.s===sk.name&&g.t>=t0&&g.x>0).reduce((a,g)=>a+g.x,0);let a=x;
+ if(earned>=SOFT)a=Math.max(1,Math.round(x*.4));else if(earned+x>SOFT){const f=SOFT-earned;a=f+Math.max(1,Math.round((x-f)*.4))}
+ sk.xp+=a;S.life[sk.name]=(S.life[sk.name]||0)+a;S.log.push({s:sk.name,x:a,c:src,t:Date.now()});return a}
+function unXP(sk,a,src){sk.xp=Math.max(0,sk.xp-a);S.life[sk.name]=Math.max(0,(S.life[sk.name]||0)-a);const i=S.log.findLastIndex(g=>g.s===sk.name&&g.c===src&&g.x===a);if(i>-1)S.log.splice(i,1)}
+function evalMonth(K){const[y,m]=K.split('-').map(Number),dim=new Date(y,m,0).getDate(),now=new Date(),cur=mk(now)===K,el=cur?now.getDate():dim,inM=t=>{const d=new Date(t);return d.getFullYear()===y&&d.getMonth()===m-1};
+ const lg=S.log.filter(g=>g.x>0&&inM(g.t)),ds=[...new Set(lg.map(g=>ymd(new Date(g.t))))].sort(),days=ds.length;let best=0,run=0,prev=null;
+ ds.forEach(k=>{const d=new Date(k+'T00:00');run=prev&&Math.round((d-prev)/864e5)===1?run+1:1;prev=d;best=Math.max(best,run)});
+ const per=S.skills.map(s=>({name:s.name,color:s.color,xp:s.xp,lv:lvl(s.xp).l})),tot=per.reduce((a,p)=>a+p.xp,0),n=Math.max(per.length,1);
+ let planned=0,done=0;for(const k in S.blocks)if(k.startsWith(K)&&(!cur||k<=ymd(now)))S.blocks[k].forEach(q=>{planned++;if(q.done)done++});
+ let ms=0;for(const k in S.md)if(k.startsWith(K))ms+=S.md[k];const mr=Math.min(1,ms/(3*el));
+ const c=Math.min(1,days/(el*.7)),avg=tot/n,mn=per.length?Math.min(...per.map(p=>p.xp)):0,b=per.length>1?(tot?Math.min(1,mn/(avg*.6)):0):(tot?1:0),f=planned?(done/planned+mr)/2:mr,g=Math.min(1,tot/(PAR*n*el/dim));
+ const score=Math.round(100*(.35*c+.25*b+.2*f+.2*g)),grade=score>=90?'S':score>=75?'A':score>=60?'B':score>=40?'C':'D',title={S:'Self-Actualized',A:'Thriving',B:'Growing',C:'Drifting',D:'Dormant'}[grade];
+ const so=[...per].sort((a,b)=>b.xp-a.xp),top=so[0],weak=so[so.length-1],notes=[];
+ if(!tot)notes.push('No activity logged this month. A fresh start is waiting.');
+ else{notes.push(`Active ${days} of ${el} days${best>=3?`, best streak ${best} days`:''}.`);
+  if(top&&weak&&top!==weak)notes.push(`Strongest: ${top.name} (Lv ${top.lv}). Weakest: ${weak.name} (Lv ${weak.lv}).`);
+  if(b<.6&&weak)notes.push(`Your build is lopsided. ${weak.name} got only ${Math.round(weak.xp/tot*100)}% of your XP.`);
+  notes.push(`Completed ${done}/${planned} planned blocks and ${ms} missions.`);
+  if(weak)notes.push(`Next month: lift ${weak.name}. Target ${Math.max(200,Math.round(weak.xp*1.5/10)*10)} XP.`)}
+ return{key:K,label:new Date(y,m-1,1).toLocaleDateString('en',{month:'long',year:'numeric'}),score,grade,title,tot,days,el,dim,planned,done,ms,per,c,b,f,g,notes}}
+function drawEval(ev,live){$('#ovb').innerHTML=`<h1>${live?'PROJECTED GRADE':'MONTHLY EVALUATION'}</h1><div class="card" style="text-align:center"><div class="em">${esc(ev.label)}</div><div class="grade g${ev.grade}">${ev.grade}</div><div class="mt">${ev.title}</div><div class="em">Score ${ev.score}/100${live?' · if the month ended today':''}</div></div>
+ <div class="card"><span class="lab">BREAKDOWN</span>${[['Consistency',ev.c],['Balance',ev.b],['Follow-through',ev.f],['Growth',ev.g]].map(([n,v])=>`<div class="em" style="padding:10px 0 0">${n} · ${Math.round(v*100)}%</div><div class="xb"><div style="width:${v*100}%;background:var(--c1)"></div></div>`).join('')}</div>
+ <div class="card"><span class="lab">SKILLS</span>${ev.per.map(p=>`<div class="it"><span class="tag" style="background:${p.color}">${esc(p.name)}</span><span class="sp"></span><b>Lv ${p.lv}</b> · ${p.xp} XP</div>`).join('')}</div>
+ <div class="card"><span class="lab" style="background:var(--y)">INSIGHTS</span>${ev.notes.map(n=>`<div class="it">${esc(n)}</div>`).join('')}</div>${live?'':'<div style="margin:12px 14px"><button class="big pri" id="ne">START NEW SEASON</button></div>'}`;
+ if(!live)$('#ne').onclick=closeOv;$('#ov').scrollTop=0}
+function drawPast(){$('#ovb').innerHTML=`<h1>PAST SEASONS</h1>${S.seasons.map((e,i)=>`<div class="card" data-e="${i}" style="cursor:pointer"><div class="row"><div class="grade sm g${e.grade}">${e.grade}</div><div class="sp"><div class="mt">${esc(e.label)}</div><div class="em" style="padding:0">Score ${e.score} · ${e.title} · ${e.tot} XP</div></div><span class="chev">›</span></div></div>`).reverse().join('')||'<div class="card"><div class="em">No completed seasons yet. Your first evaluation arrives on the 1st.</div></div>'}`;
+ $('#ovb').querySelectorAll('[data-e]').forEach(x=>x.onclick=()=>{sfx('open');drawEval(S.seasons[+x.dataset.e])})}
+function drawSeason(){const d=new Date(),dim=new Date(d.getFullYear(),d.getMonth()+1,0).getDate(),day=d.getDate(),ev=evalMonth(S.season.key);
+ $('#season').innerHTML=`<div class="row"><span class="lab">SEASON</span><span class="sp"></span><b style="font:800 13px Orbitron">${esc(ev.label)}</b></div><div class="xb"><div style="width:${day/dim*100}%;background:var(--y)"></div></div>
+ <div class="em">Day ${day} of ${dim}. Levels reset on the 1st and you get a full evaluation. After 100 XP in one skill per day, extra XP is reduced, so spread your effort.</div>
+ <div class="row"><div class="grade sm g${ev.grade}">${ev.grade}</div><div class="sp"><div class="mt" style="font-size:19px">Projected: ${ev.title}</div><div class="em" style="padding:0">Score ${ev.score}/100 so far</div></div></div>
+ <div class="btns"><button id="se1">📊 FULL PREVIEW</button>${S.seasons.length?`<button id="se2">🏆 PAST (${S.seasons.length})</button>`:''}</div>`;
+ $('#se1').onclick=()=>openOv(()=>drawEval(evalMonth(S.season.key),true));if($('#se2'))$('#se2').onclick=()=>openOv(drawPast)}
+const _ds=drawStats;drawStats=function(){_ds();drawSeason()};
+function checkSeason(){const K=mk(new Date());if(!S.season){S.season={key:K};S.life={};S.skills.forEach(s=>S.life[s.name]=s.xp);save();return}
+ if(S.season.key===K)return;S.seasons.push(evalMonth(S.season.key));S.skills.forEach(s=>s.xp=0);S.season={key:K};S.missions=null;S.pend=1;save()}
+function showPend(){S.pend=0;save();avSig='';updBadge();setTimeout(()=>openOv(()=>drawEval(S.seasons[S.seasons.length-1])),900)}
+checkSeason();avSig='';updBadge();if(S.pend)showPend();
+setInterval(()=>{checkSeason();if(S.pend)showPend()},60000);document.addEventListener('visibilitychange',()=>{if(!document.hidden){checkSeason();if(S.pend)showPend()}});
+const xpMult=()=>1+Math.min(.5,streak()*.05);
+function dailyCheck(){const t=today();if(S.lg.last===t)return null;const yd=new Date();yd.setDate(yd.getDate()-1);const y=ymd(yd),d2=new Date(yd);d2.setDate(d2.getDate()-1);
+ S.lg.n=S.lg.last===y?S.lg.n+1:1;let froze=0;
+ if(!(S.md[y]>0||S.fz[y])&&(S.md[ymd(d2)]>0||S.fz[ymd(d2)])&&S.freeze>0){S.freeze--;S.fz[y]=1;froze=1}
+ const rew=10+5*(Math.min(S.lg.n,7)-1),w=[...S.skills].sort((a,b)=>lvl(a.xp).l-lvl(b.xp).l||a.xp-b.xp)[0];let got=0;
+ if(w)got=gainXP(w,rew,'🎁 Login');if(S.lg.n%7===0)S.freeze=Math.min(3,S.freeze+1);
+ S.lg.last=t;save();return{n:S.lg.n,got,w:w&&w.name,froze,wk:S.lg.n%7===0}}
+function showLogin(i){const pos=(i.n-1)%7+1;modal(`<span class="lab">DAILY LOGIN</span><div class="mt" style="margin-top:10px">Day ${i.n} · +${i.got} XP${i.w?' to '+esc(i.w):''}</div><div class="week">${[1,2,3,4,5,6,7].map(k=>`<div class="wd ${k<=pos?'on':''}">${k===7?'🎁':k}</div>`).join('')}</div>${i.froze?'<div class="em">🧊 A streak freeze saved your streak yesterday.</div>':''}<div class="em">${i.wk?'Day 7 reward: +1 🧊 streak freeze!':'Reach day 7 for a free 🧊 streak freeze. Miss a day and the login streak restarts.'}</div><button class="big pri" id="lgb">CLAIM</button>`);$('#lgb').onclick=()=>{sfx('star');closeM();avSig='';updBadge()}}
+const doneCount=()=>S.log.filter(g=>!/🎁|All clear/.test(g.c||'')&&g.x>0).length;
+const BADGES=[['spark','⚡','First Spark','Finish your first activity',()=>doneCount()>=1],['ten','🏁','Getting Serious','Finish 10 activities',()=>doneCount()>=10],['fifty','🏆','Fifty Club','Finish 50 activities',()=>doneCount()>=50],
+['s3','🔥','3-Day Streak','Mission streak of 3',()=>streak()>=3],['s7','🌟','Week Warrior','Mission streak of 7',()=>streak()>=7],['s30','👑','Monthly Legend','Mission streak of 30',()=>streak()>=30],
+['clear','✅','All Clear','Finish all 3 missions in a day',()=>Object.values(S.md).some(v=>v>=3)],['lvl5','🚀','Rising','Reach lifetime Lv 5 in a skill',()=>S.skills.some(s=>lvl(S.life[s.name]||s.xp).l>=5)],
+['bal','⚖️','Balanced','3+ skills at Lv 3 this month',()=>S.skills.length>=3&&S.skills.every(s=>lvl(s.xp).l>=3)],['chips','💿','Collector','Create 5 chips',()=>S.boxes.length>=5],
+['imp','⭐','Priority Mode','Finish an important task',()=>S.tasks.some(t=>t.done&&t.imp)],['honor','🎓','Honor Roll','Earn an A or S in a season',()=>S.seasons.some(e=>e.grade==='A'||e.grade==='S')],['loyal','🎁','Loyal','7-day login streak',()=>S.lg.n>=7]];
+function checkBadges(){let c=0;BADGES.forEach(([id,ic,n,d,f])=>{if(!S.badges[id]&&f()){S.badges[id]=today();save();const k=c++;if(k<3)setTimeout(()=>{sfx('star');buzz([20,30,20]);toast(`🏅 Badge: ${n}`)},k*2400)}})}
+function badgesHTML(){const n=Object.keys(S.badges).length;return `<div class="card"><div class="row"><span class="lab">BADGES</span><span class="sp"></span><b style="font:800 13px Orbitron">${n}/${BADGES.length}</b></div><div class="bgs">${BADGES.map(([id,ic,nm,d])=>`<div class="bg ${S.badges[id]?'on':''}"><div class="bi">${S.badges[id]?ic:'🔒'}</div><div class="bn">${nm}</div><div class="bd2">${esc(d)}</div></div>`).join('')}</div></div>`}
+let pickH=null;const HINT='Tap a chip to edit it. Hold one for 1 second until it shakes, then drag it onto the schedule.';
+function setHint(){const e=document.querySelector('#inv .em');if(e)e.textContent=pickH!=null?`Tap a chip to schedule it at ${fh(pickH)}.`:HINT}
+function pickChip(box){const s=pickH;pickH=null;$('#inv').classList.remove('open');setHint();if(D().some(b=>b.start<s+1&&b.end>s)){sfx('err');toast('That slot is taken');return}
+ D().push({id:uid(),name:box.name,skill:box.skill,icon:box.icon,color:box.color,bid:box.id,start:s,end:s+1,done:false});save();sfx('drop');buzz(12);drawGrid()}
+$('#grid').addEventListener('click',e=>{if(e.target.closest('.blk'))return;const r=$('#grid').getBoundingClientRect(),row=Math.floor((e.clientY-r.top)/H);if(row<0||row>=NR)return;const s=H0+row;
+ if(D().some(b=>b.start<s+1&&b.end>s))return;pickH=s;drawInv();setHint();sfx('open');$('#inv').classList.remove('away');$('#inv').classList.add('open')});
+$('#qa').onclick=()=>{modal('<span class="lab">QUICK ADD</span><button class="big pri" id="q1">📅 EVENT</button><button class="big" id="q2">✅ TASK</button>');$('#q1').onclick=()=>itemForm('e');$('#q2').onclick=()=>itemForm('t')};
+setHint();const lgi=dailyCheck();
+if(lgi&&!firstRun){if(S.pend)toast(`🎁 Login +${lgi.got} XP`);else setTimeout(()=>showLogin(lgi),1300)}
+checkBadges();setInterval(checkBadges,2000);avSig='';updBadge();
 drawCal();tick();drawGrid();
 </script></body></html>
